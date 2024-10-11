@@ -1,6 +1,6 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
-let password = 'auto';
+let password = '8c2bf20f-39c1-4296-8d7f-7a9f1e3004a0';
 
 //Find proxyIP : https://github.com/NiREvil/vless/blob/main/sub/ProxyIP.md
 let proxyIP = ['bpb.radically.pro'];
@@ -25,7 +25,7 @@ let subconverter = 'SUBAPI.fxxk.dedyn.io';// Clash subscription conversion backe
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini";// Subscription Profile
 let RproxyIP = 'false';
 
-let addressesapi = [];// you can use any addresses api's like this ['https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt'];
+let addressesapi = ['https://raw.githubusercontent.com/mehdi-hexing/Trauma/main/cleanIPs.txt'];// you can use any addresses api's like this ['https://raw.githubusercontent.com/NiREvil/Trauma/main/cleanIPs.txt'];
 let addressescsv = [];
 let DLS = 8;
 
